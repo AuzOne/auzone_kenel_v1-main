@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="github"
+          fetch=".." />
+          
+<remote name="AuzOne"
+          fetch="https://github.com/AuzOne/" />
+<default revision="master"
+           remote="github"
+           sync-f="true"
+           sync-c="true"
+           sync-j="4" />
+           
+<project path="kernel/samsung/auzone_kenel-lp" name="AuzOne/auzone_kenel" revision="lollipop" />
+<project path="kernel/samsung/auzone_kenel-cm" name="AuzOne/Dorimanx-SG2-I9100-Kernel" revision="master-maliv3" />
+<project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4412" revision="cm-12.1-master" />
+<project path="kernel/samsung/exynos4210" name="AuzOne/legacy_android_kernel_exynos4210" />
+<project path="kernel/samsung/exynos4" name="AuzOne/kernel_3.4_samsung_exynos4" />
+
+</manifest>
